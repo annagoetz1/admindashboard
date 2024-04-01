@@ -46,3 +46,21 @@ ul {
     list-style-type: none;
     font-size: xx-large
 }
+.nav-list li {
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.nav-list li:nth-child(7) {
+    visibility: hidden; /* Hide the empty list item */
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+}
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
