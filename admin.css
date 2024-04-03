@@ -102,7 +102,7 @@ grid-row: 2 / 5;
 .search-bar {
 grid-column: 1;
 grid-row: 1;
-background-color: #2f4f4f;
+background-color:grey;
 border-radius: 10px;
 width: 75%;
 height: 40px;
