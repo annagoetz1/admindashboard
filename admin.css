@@ -74,6 +74,7 @@ ul {
     grid-template-rows: repeat(3, 1fr);
     gap: 40px;
     margin-right: 250px;
+    color: darkblue;
     
 }
 .square {
@@ -81,10 +82,10 @@ ul {
     flex-wrap: wrap;
     max-width: 300px;
     max-height: 165px;
-  
+    border-left: 7px solid darkblue; 
     background-color: white;
     border-radius: 5px;
-    box-shadow: outset;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5) outset;
   padding: 10px;
 }
 
@@ -101,11 +102,16 @@ margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1;
     grid-template-rows: repeat(3, 1fr);
-    padding: 0px;
-color: white;
+    padding: 10px;
+color: darkblue;
+background-color: white;
+border-radius: 5px;
+    max-width: 200px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5) outset;
 }
 .announcements p {
     font-size: smaller;
+    
 }
 .header-content {
     display: grid;
@@ -137,4 +143,10 @@ margin-top: 40px;
 }
 .trending {
     color: white;
+}
+
+.divider {
+    height: 1px;
+    background-color: darkblue;
+    margin: 5px 0; 
 }
