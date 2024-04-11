@@ -98,15 +98,16 @@ margin-bottom: 100px;
 }
 
 .announcements {
-    margin-bottom: 260px;
+    margin-bottom: 320px;
     display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
     padding: 10px;
+    height:345px;
 color: darkblue;
 background-color: white;
 border-radius: 5px;
-    max-width: 200px;
+    max-width: 250px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5) outset;
 }
 .announcements p {
