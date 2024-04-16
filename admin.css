@@ -99,8 +99,10 @@ margin-bottom: 100px;
 }
 
 .announcements {
-    margin-bottom: 320px;
+
     display: grid;
+    grid-row: 2 / 3;
+    margin-top: 0px;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
     padding:10px;
@@ -145,10 +147,11 @@ margin-top: 40px;
 }
 .trending {
     color: white;
-    margin: 0;
+  display: grid;
     padding: 0;
-    display: grid;
-    grid-row:  2 / 3;  
+
+    grid-row:  3 / 4;  
+
 }
 
 .divider {
