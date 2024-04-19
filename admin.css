@@ -30,10 +30,10 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .sidebar-grid {
     display: grid;
-    grid-template-columns: 1;
+    grid-template-columns: auto 1fr;
     background-color: blue;
     color: white;
-    align-items: left;
+    align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 50px;
     margin-top: 30px;
@@ -41,14 +41,16 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .nav-list{
 display: grid;
-grid-template-columns: 1;
+grid-template-columns: 1fr;
 grid-template-rows: repeat(10, 1 fr);
 background-color: blue;
 color: white;
 }
-ul {
+
+.nav-list ul {
     list-style-type: none;
-    font-size: xx-large
+    font-size: xx-large;
+    padding: 0px;
 }
 .nav-list li {
     padding: 10px; /* Add padding for better spacing */
@@ -145,6 +147,9 @@ margin-top: 40px;
 }
 .greeting {
     margin-left: 20px;
+    display: grid;
+    grid-column: 1fr 1fr;
+    grid-row: 1;
 }
 .trending {
     color: darkblue;
@@ -162,3 +167,10 @@ box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5) outset;
     background-color: darkblue;
     margin: 5px 0; 
 }
+
+.nav-list img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
