@@ -200,3 +200,11 @@ display: flex;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
+.square img {
+    width: 12px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 5px;
+}
