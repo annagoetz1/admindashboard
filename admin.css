@@ -88,6 +88,8 @@ color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5) outset;
   padding: 10px;
+position: relative;
+
 }
 
 .right-side {
@@ -203,8 +205,10 @@ display: flex;
 .square img {
     width: 12px;
     height: auto;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
-    gap: 5px;
+   
+}
+.icon-container {
+    display: flex; /* Use flexbox to align icons */
+    justify-content: flex-end; /* Align icons to the right */
+    gap: 5px; /* Add space between icons */
 }
