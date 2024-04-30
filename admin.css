@@ -163,7 +163,8 @@ button {
 .trending {
     color: darkblue;
   display: grid;
-    padding: 10px;
+  grid-template-columns: 40px 90px;
+ 
 background-color: white;
 border-radius: 5px;
 max-width: 350px;
@@ -244,4 +245,16 @@ gap: 20px;
     height: auto;
     padding: 10px;
     margin-bottom: 10px;
+}
+.trending img  {
+    width: 30px;
+    height: auto;
+    margin-left: 5px;
+    margin-top: 10px;
+   
+}
+.trending h3 {
+    margin-right: 25px;
+   
+    margin-top: 15px;
 }
