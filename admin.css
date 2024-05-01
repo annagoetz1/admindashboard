@@ -164,7 +164,6 @@ button {
     color: darkblue;
   display: grid;
   grid-template-columns: 40px 90px;
-
 background-color: white;
 border-radius: 5px;
 max-width: 350px;
